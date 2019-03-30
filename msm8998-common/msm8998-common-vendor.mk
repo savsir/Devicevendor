@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/xiaomi/msm8998-common/proprietary/vendor/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcrilhook.jar \
     vendor/xiaomi/msm8998-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+	vendor/xiaomi/msm8998-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/xiaomi/msm8998-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
