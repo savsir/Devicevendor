@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -35,9 +35,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_workspaceFile.qwsp \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/calibration_sound.wav:$(TARGET_COPY_OUT_VENDOR)/etc/calibration_sound.wav \
-	vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/thermal-engine-8998-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8998-high.conf \
     vendor/xiaomi/sagit/proprietary/vendor/etc/thermal-engine-8998.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8998.conf \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libactuator_ak7371_s5k3m3_semco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_s5k3m3_semco.so \
@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx268_default_video_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx268_hfr_120.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx268_hfr_120_3a.so \
-	vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_semco_hfr_240_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx268_hfr_60.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx268_hfr_60_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx268_hfr_90.so \
@@ -69,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx268_video_4k.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx268_zsl_preview_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx268_zsl_video_3a.so \
-	vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_centaur_imx268_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_centaur_imx268_ofilm.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_4K_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_semco_4K_preview.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_4K_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_semco_4K_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_semco_common.so \
